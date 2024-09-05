@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__container">
+        <nav class="menu">
+            <ul class="list">
+                <li class="list__item"><a class="link" href="#about-me">Обо мне</a></li>
+                <li class="list__item"><a class="link" href="#projects">Проекты</a></li>
+                <li class="list__item"><a class="link" href="#skills">Навыки</a></li>
+                <li class="list__item"><a class="link" href="#purposes">Цели</a></li>
+                <li class="list__item"><a class="link" href="#course">Откуда узнал про курс</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="bio" id="about-me">
+    <div class="container bio__container">
+        <div class="bio__image">
+            <img src="images/main-photo.png" alt="main-photo">
+        </div>
+        <div class="bio__info">
+            <h1 class="bio__title">Погоренко Иван Сергеевич
+                25.03.2003
+                <br>г. Томск</h1>
+            <div class="bio__text">
+                <p class="text bio-text__text">Учусь в Томском государственном университете на 4 курсе. Институт
+                    прикладной математики и компьютерных наук.</p>
+                <p class="text bio-text__text">Последний год постоянно совершенствуюсь в области frontend-разработки с
+                    помощью онлайн-курсов, видео и статей в открытом доступе.</p>
+                <p class="text bio-text__text">Изучил HTML, CSS, JavaScript, активно погружаюсь в ReactJS.</p>
+                <p class="text bio-text__text">Буду рад получить новые знания и применить уже имеющиеся навыки в
+                    коммерческих проектах.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts">
+    <div class="container contacts__container">
+        <div class="contact">
+            <div class="contact__image">
+                <a href="https://github.com/IvanPogorenko/portfolio"><img src="images/image-1.png" alt="git"></a>
+            </div>
+            <div class="contact__link">
+                <a href="https://github.com/IvanPogorenko/portfolio" class="link">IvanPogorenko</a>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact__image">
+                <a href="#"><img src="images/image.png" alt="telegram"></a>
+            </div>
+            <div class="contact__link">
+                <a href="#" class="link">@Duduvvka</a>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact__image">
+                <a href=""><img src="images/image-2.png" alt="phone"></a>
+            </div>
+            <div class="contact__link">
+                <a href="#" class="link">89915083983</a>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact__image">
+                <a href=""><img src="images/image-3.png" alt="mail"></a>
+            </div>
+            <div class="contact__link">
+                <a href="#" class="link">ipogorenko@yandex.ru</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slider" id="projects">
+    <div class=" container slider__container">
+        <div class="slider__pictures">
+            <div class="slider__picture">
+                <img src="images/slide1.png" alt="slide3">
+            </div>
+            <div class="slider__picture">
+                <img src="images/slide2.png" alt="slide2">
+            </div>
+            <div class="slider__picture">
+                <img src="images/slide3.png" alt="slide1">
+            </div>
+        </div>
+        <div class="slider__info">
+            <div class="slide__info slide-info_blue">
+                <h2 class="headline slider__headline">Создание
+                    интернет-магазина
+                    (2023-2024 год)
+                </h2>
+                <ul class="slider__text">
+                    <li class="text slider__text_margin">Разработал frontend часть сайта в рамках командного проекта.
+                    </li>
+                    <li class="text slider__text_margin">Использованный фреймворк - ReactJS. Для связи с backend частью
+                        использовался Axios.
+                    </li>
+                    <li class="text slider__text_margin">работал с формами для аутентификации и создания заказа.</li>
+                    <li class="text slider__text_margin">На данный момент этот pet-проект находится на доработке.</li>
+                    <li class="text"><a class="slider__link"
+                                        href="https://github.com/IvanPogorenko/portfolio/tree/main/ReactJS%20Project">Проект
+                        на
+                        Github</a></li>
+                </ul>
+            </div>
+            <div class="slide__info slide-info_white text_black">
+                <h2 class="headline slider__headline">Онлайн курсы от
+                    Айтилогия
+                    (2024 год)
+                </h2>
+                <ul class="slider__text">
+                    <li class="text slider__text_margin">Прохожу дополнительные курсы по профессии frontend-разработчик
+                        для:
+                    </li>
+                    <li class="text slider__text_margin">получения новых навыков,</li>
+                    <li class="text slider__text_margin">обобщения уже имеющихся знаний по верстке и JavaScript,</li>
+                    <li class="text slider__text_margin">изучения нового frontend фреймворка - Angular.</li>
+                </ul>
+            </div>
+            <div class="slide__info slide-info_green">
+                <h2 class="headline slider__headline">Работа с версткой <br>
+                    (2024 год)
+                </h2>
+                <ul class="slider__text">
+                    <li class="text slider__text_margin">Работал с HTML5 и CSS, также читал про SASS. В Github приведены
+                        следующие работы:
+                    </li>
+                    <li class="text slider__text_margin">Адаптивная верстка,</li>
+                    <li class="text slider__text_margin">Создание анимаций,</li>
+                    <li class="text slider__text_margin">Работа с Grid и Flex.</li>
+                    <li class="text slider__text_margin"><a
+                            href="https://github.com/IvanPogorenko/portfolio/tree/main/Layouts"
+                            class="slider__link">Ссылка на Github</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="slider__actions">
+            <button class="down-button btn btn_position">
+                <svg width="16" height="32" viewBox="0 0 16 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.69896 30.8136C8.30398 31.1996 7.67086 31.1923 7.28484 30.7973L0.994225 24.3609C0.608202 23.9659 0.615459 23.3328 1.01043 22.9467C1.40541 22.5607 2.03853 22.568 2.42455 22.963L8.01621 28.6843L13.7375 23.0926C14.1325 22.7066 14.7656 22.7138 15.1516 23.1088C15.5377 23.5038 15.5304 24.1369 15.1354 24.5229L8.69896 30.8136ZM9.33343 1.01146L8.99993 30.1098L7.00007 30.0869L7.33356 0.98854L9.33343 1.01146Z"
+                          fill="white" fill-opacity="0.75"/>
+                </svg>
+            </button>
+            <button class="up-button btn btn_position">
+                <svg width="16" height="31" viewBox="0 0 16 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.69896 0.284836C8.30398 -0.101187 7.67086 -0.0939306 7.28484 0.301044L0.994225 6.73752C0.608202 7.13249 0.615459 7.76562 1.01043 8.15164C1.40541 8.53766 2.03853 8.53041 2.42455 8.13543L8.01621 2.41412L13.7375 8.00577C14.1325 8.3918 14.7656 8.38454 15.1516 7.98957C15.5377 7.59459 15.5304 6.96147 15.1354 6.57545L8.69896 0.284836ZM9.33343 30.0869L8.99993 0.98854L7.00007 1.01146L7.33356 30.1098L9.33343 30.0869Z"
+                          fill="white" fill-opacity="0.75"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="about-skills" id="skills">
+    <div class="container skills__container">
+        <h2 class="headline skills__headline">Мои навыки</h2>
+        <div class="skills">
+            <div class="skill skill__position_left">
+                <div class="skill__level skill__level_layout">
+                    <div class="skill__level_filled skill__level_experienced"></div>
+                </div>
+                <div class="skill__info">Владение Grid и Flex, был опыт работы с Bootstrap, работал с адаптивной
+                    версткой
+                </div>
+            </div>
+            <div class="skill skill__position_right">
+                <div class="skill__level skill__level_framework">
+                    <div class="skill__level_filled skill__level_base"></div>
+                </div>
+                <div class="skill__info">Понимаю принцип Virtual DOM, знаю базовые хуки React, умею работать с
+                    DOM-деревом
+                </div>
+            </div>
+            <div class="skill skill__position_left">
+                <div class="skill__level skill__level_typescript">
+                    <div class="skill__level_filled skill__level_base"></div>
+                </div>
+                <div class="skill__info">Адаптировал чужой код для backend части сайта на NestJS. Знаю некоторые
+                    паттерны разработки
+                </div>
+            </div>
+            <div class="skill skill__position_right">
+                <div class="skill__level skill__level_english">
+                    <div class="skill__level_filled skill__level_half"></div>
+                </div>
+                <div class="skill__info">Принимал участие в 11-й международной конференции "Математическое и программное
+                    обеспечение информационных, технических и экономических систем".
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="purposes" id="purposes">
+    <div class="container purposes__container">
+        <h2 class="headline purposes__headline">Мои цели</h2>
+        <div class="purposes__steps">
+            <div class="purposes__image" id="0">
+                <img src="images/step1.png" class="purpose__image" alt="step1">
+            </div>
+            <div class="purposes__image" id="1">
+                <img src="images/step2.png" class="purpose__image purposes__image_big" alt="step2">
+            </div>
+            <div class="purposes__image" id="2">
+                <img src="images/step3.png" class="purpose__image" alt="step3">
+            </div>
+            <div class="purposes__image" id="3">
+                <img src="images/step4.png" class="purpose__image" alt="step4">
+            </div>
+        </div>
+        <div class="purposes__text">
+            <div class="purposes__info text ">Самостоятельно получить базовые навыки в области
+                frontend-разработки
+            </div>
+            <div class="purposes__info text purposes__info_visible">Получить более углубленные знания
+                frontend-разработки с помощью
+                дополнительного
+                курса от itlogia и попасть в школу Кодмастерс
+            </div>
+            <div class="purposes__info text">Успешно пройти курс школы Кодмастерс и получить
+                предложение на стажировку
+            </div>
+            <div class="purposes__info text">Проявить свои навыки на стажировке, получить опыт
+                коммерческой разработки и стать
+                младшим разработчиком
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-course" id="course">
+    <div class="container about-course__container">
+        <div class="about-course__image">
+            <img src="images/tsu.png" alt="tsu">
+        </div>
+        <div class="about-course__info">
+            <h2 class="headline about-course__headline">Откуда узнал про курс</h2>
+            <div class="text">Про курс Кодмастерс я узнал от своей однокурсницы - Ефремовой Юлии, которая в прошлом году
+                проходила у вас обучение и удачно устроилась на работу frontend-разработчиком.
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__text">prod. by Погоренко Иван</div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
